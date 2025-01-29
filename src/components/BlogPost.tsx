@@ -22,7 +22,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
     <div className="card shadow-lg border-0 mb-4">
       <div className="card-body p-4">
         <h2 className="card-title text-primary fw-bold">{post.title}</h2>
-        <h6 className="text-muted">{post.date}</h6>
+        <h6 className="text-muted">{post.date.toDateString()}</h6>
         <hr />
         <ReactMarkdown className="markdown-body">{content}</ReactMarkdown>
       </div>

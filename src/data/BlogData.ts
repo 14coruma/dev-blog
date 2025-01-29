@@ -1,21 +1,15 @@
 export interface BlogPost {
-  id: string;
+  id: number;
   title: string;
-  date: string;
+  date: Date;
   fileName: string;
 }
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "1",
-    title: "Week 1 - Starting the Dev Blog",
-    date: "2025-01-29",
-    fileName: '2025-01-29.md'
-  },
-  {
-    id: "2",
-    title: "Week 1 - Starting the Dev Blog",
-    date: "2025-01-29",
+    id: 1,
+    title: "Starting a Dev Blog",
+    date: new Date("01-29-2025"),
     fileName: '2025-01-29.md'
   },
   // Add more posts here...
