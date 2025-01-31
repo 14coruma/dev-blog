@@ -12,5 +12,11 @@ export const blogPosts: BlogPost[] = [
     date: new Date("29 January 2025"),
     fileName: '2025-01-29.md'
   },
+  {
+    id: 2,
+    title: "Project Planning and Design - Indie RPG",
+    date: new Date("30 January 2025"),
+    fileName: '2025-01-30.md'
+  }
   // Add more posts here...
 ];
